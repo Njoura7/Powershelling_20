@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="./Powershelling_23-logo.png" alt="logo" title="Powershelling_23 logo" width="160">
+  <img src="./Powershelling_23-logo.png" alt="logo" title="Powershelling_23 logo" width="200">
 </p>
 # PowerShelling_23
 
