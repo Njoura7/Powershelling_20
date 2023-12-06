@@ -1,4 +1,4 @@
-[!logo](./Powershelling_23-logo.png)
+![logo](./Powershelling_23-logo.png)
 # PowerShelling_23
 
 Welcome to the `PowerShelling_23` project! This repository is an open-source initiative designed to offer a unique and interactive way to learn PowerShell. It's structured as a series of challenges, each progressively building on the skills acquired in the previous tasks. Whether you're a beginner or a seasoned PowerShell user, these tasks are designed to enhance your understanding and proficiency in scripting and system administration using PowerShell.
