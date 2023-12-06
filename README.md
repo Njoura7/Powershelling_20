@@ -1,11 +1,7 @@
 
-<div style="text-align: center;">
-<img
-  src="./Powershelling_23-logo.png"
-  alt="logo"
-  title="Powershelling_23 logo"
-  style="display: inline-block; margin: 0 auto ;width: 10rem">
-</div>
+<p align="center">
+  <img src="./Powershelling_23-logo.png" alt="logo" title="Powershelling_23 logo" width="160">
+</p>
 # PowerShelling_23
 
 Welcome to the `PowerShelling_23` project! This repository is an open-source initiative designed to offer a unique and interactive way to learn PowerShell. It's structured as a series of challenges, each progressively building on the skills acquired in the previous tasks. Whether you're a beginner or a seasoned PowerShell user, these tasks are designed to enhance your understanding and proficiency in scripting and system administration using PowerShell.
