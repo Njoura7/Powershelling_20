@@ -1,4 +1,3 @@
-
 <p align="center">
   <img src="./Powershelling_23-logo.png" alt="logo" title="Powershelling_23 logo" width="200">
 </p>
@@ -48,6 +47,15 @@ To identify the network adapter with the highest data usage for user7:
 
 ```powershell
 (Get-NetAdapterStatistics | Sort-Object -Property ReceivedBytes -Descending | Select-Object -First 1).Name
+```
+
+### User 8 Solution
+
+To discover the unique static IP address set for user8:
+
+```powershell
+$uniqueIP = Get-NetIPAddress -AddressFamily IPv4 | Where-Object { $_.IPAddress -like '10.*' } | Select-Object -First 1
+$uniqueIP.IPAddress
 ```
 
 ## Contributing to PowerShelling_23
