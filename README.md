@@ -9,6 +9,15 @@ Welcome to the `PowerShelling_20` project! This repository is an open-source ini
 
 Below are the solutions for each user level in the PowerShelling_20 challenge:
 
+### User 1 Solution
+
+Given credentials:
+
+-----------------
+Username: User
+Password: password
+-----------------
+
 ### User 3 Solution
 
 To find the `supersecret.txt` file for user3, use the following command:
