@@ -13,8 +13,7 @@ Below are the solutions for each user level in the PowerShelling_20 challenge:
 
 Given credentials:
 
------------------
-Username: User
+Username: User </br>
 Password: password
 -----------------
 
