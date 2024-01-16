@@ -66,11 +66,11 @@ $uniqueIP = Get-NetIPAddress -AddressFamily IPv4 | Where-Object { $_.IPAddress -
 $uniqueIP.IPAddress
 ```
 
-## Contributing to PowerShelling_23
+## Contributing to PowerShelling_20
 
-We welcome contributions to the PowerShelling_23 project! Whether you're looking to fix bugs, enhance the existing tasks, or add new challenges, your input is valuable. Here's how you can contribute:
+We welcome contributions to the PowerShelling_20 project! Whether you're looking to fix bugs, enhance the existing tasks, or add new challenges, your input is valuable. Here's how you can contribute:
 
-1. Fork the Repository: Start by forking the PowerShelling_23 repository to your GitHub account.1
+1. Fork the Repository: Start by forking the PowerShelling_20 repository to your GitHub account.1
 
 2. Clone the Forked Repo: Clone the repository to your local machine to make changes.
 
