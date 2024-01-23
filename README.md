@@ -73,6 +73,14 @@ To find the unique identifier for user9, follow these steps:
 ```powershell
 (Get-Content -Path C:\ChallengeFile.txt | Select-String -Pattern "SpecialEntryForLevel9").LineNumber
 ```
+
+### User 10 Solution
+
+For user10, the password is set directly in the script. Here’s how to retrieve it:
+
+```powershell
+(Get-LocalUser -Name "user10").Password
+```
 ## Contributing to PowerShelling_20
 
 We welcome contributions to the PowerShelling_20 project! Whether you're looking to fix bugs, enhance the existing tasks, or add new challenges, your input is valuable. Here's how you can contribute:
