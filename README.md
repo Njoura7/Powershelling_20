@@ -81,6 +81,21 @@ For user10, the password is set directly in the script. Here’s how to retrieve
 ```powershell
 (Get-LocalUser -Name "user10").Password
 ```
+
+### User 11 Solution
+
+To retrieve the unique password for user11, you need to debug a PowerShell script. The script contains intentional errors and your task is to correct them. The corrected script will output the password for user11.
+
+Here’s a hint: The script involves mathematical operations and variable usage. Make sure the syntax and variable names are correct.
+
+Here’s a snippet of the buggy script:
+```powershell
+$buggyScript1 = @'
+$number = 25
+Write-Output "Square root: $([Math]::Sqrt(number))"  # Intentional syntax error
+'@
+```
+
 ## Contributing to PowerShelling_20
 
 We welcome contributions to the PowerShelling_20 project! Whether you're looking to fix bugs, enhance the existing tasks, or add new challenges, your input is valuable. Here's how you can contribute:
