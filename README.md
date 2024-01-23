@@ -96,6 +96,20 @@ Write-Output "Square root: $([Math]::Sqrt(number))"  # Intentional syntax error
 '@
 ```
 
+### User 12 Solution
+Execute the following PowerShell commands to analyze file permissions and extract the relevant information:
+
+```powershell
+# Analyze file permissions using Get-Acl 
+$acl = Get-Acl -Path "C:\Users\user11\Desktop\checkMyPermissions.txt" 
+
+# Extract the relevant permission 
+$extractedPermission = $acl.Access | Where-Object { $_.IdentityReference -eq "$env:COMPUTERNAME\user11" } | Select-Object -ExpandProperty FileSystemRights 
+
+# Use the extracted permission as the password for 'user12' (replace 'Synchronize' with the actual permission)
+$password12 = $extractedPermission -replace 'Synchronize', ''
+```
+
 ## Contributing to PowerShelling_20
 
 We welcome contributions to the PowerShelling_20 project! Whether you're looking to fix bugs, enhance the existing tasks, or add new challenges, your input is valuable. Here's how you can contribute:
